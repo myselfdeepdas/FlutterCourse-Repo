@@ -13,7 +13,8 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Container(
           child: Text("Welcome to Home Page", style: TextStyle(
-            fontWeight: FontWeight.bold
+            fontWeight: FontWeight.bold,
+            fontSize: 25
             
             ),),
         ),
