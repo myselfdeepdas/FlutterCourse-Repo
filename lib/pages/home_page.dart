@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/widgets/drawer.dart';
 // ignore_for_file: prefer_const_constructors
 
 class HomePage extends StatelessWidget {
@@ -19,7 +20,7 @@ class HomePage extends StatelessWidget {
             ),),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
