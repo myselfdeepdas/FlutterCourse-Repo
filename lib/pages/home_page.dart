@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/widgets/drawer.dart';
 // ignore_for_file: prefer_const_constructors
@@ -9,11 +11,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(   
       appBar: AppBar(
-        title: Text("Home Page"),
+       
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to Home Page", style: TextStyle(
+          child: Text("Welcome to Home Page",  style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25
             
