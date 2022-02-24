@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   @override
+   
   Widget build(BuildContext context) {
     final dummyList = List.generate(20, (index) => CatalogModel.items[0]);
     return Scaffold(
